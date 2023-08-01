@@ -1,0 +1,220 @@
+/* ============= VARIABLES ============= */
+:root {
+  --primary-color: #4d5ae5;
+  --accent-color: #404bbf;
+  --dark: #2e2f42;
+  --text-color: #434455;
+  --light-color: #f4f4fd;
+  --white: #ffffff;
+}
+/* ============= /VARIABLES ============= */
+
+/* ============= COMMON STYLES ============= */
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--dark);
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--dark);
+}
+
+.link:hover,
+.link:active {
+  color: var(--primary-color);
+}
+
+/* ============= /COMMON STYLES ============= */
+
+/* ============= HEADER ============= */
+
+.page-header {
+  background: var(--white);
+}
+
+.logo-color {
+  color: var(--primary-color);
+}
+
+/* .menu {
+  
+} */
+
+.menu-link {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--dark);
+}
+
+.contact-link {
+  color: var(--text-color);
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* ============= /HEADER ============= */
+
+/* ============= HERO ================= */
+
+.hero {
+  background: var(--dark);
+}
+
+.main-title {
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  color: var(--white);
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  color: var(--white);
+  border-radius: 4px;
+  background: var(--primary-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background: var(--accent-color);
+}
+
+/* ============= /HERO ================= */
+
+/* ============= BENEFIT================ */
+
+.benefit-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.benefit-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--text-color);
+}
+
+/* ============= /BENEFIT================ */
+
+/* ============= DIRECTION ============== */
+
+/* ============= /DIRECTION ============== */
+
+/* ============= TEAM ============== */
+
+.team {
+  background: #f4f4fd;
+}
+
+.team-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--text-color);
+}
+
+/* ============= /TEAM ============== */
+
+/* ============= FOOTER ============== */
+
+.page-footer {
+  background: var(--dark);
+}
+
+.footer-logo-text {
+  color: var(--light-color);
+}
+
+.footer-logo-text:hover,
+.footer-logo-text:focus {
+  color: var(--primary-color);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--light-color);
+}
+
+/* ============= /FOOTER ============== */
+
+/* ============ PORTFOLIO============== */
+
+.filter-btn {
+  border-radius: 4px;
+  border: 1px solid #e7e9fc;
+  color: var(--primary-color);
+  background: var(--light-color);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background: var(--accent-color);
+  color: var(--white);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.project-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--text-color);
+}
