@@ -24,7 +24,8 @@ button {
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--dark);
+  color: var(--text-color);
+  background-color: var(--white);
 }
 
 .section-title {
@@ -33,22 +34,24 @@ body {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align: center;
+  color: var(--dark);
 }
 
 .logo {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  color: var(--dark);
+  color: var(--primary-color);
 }
 
 .link:hover,
 .link:active {
-  color: var(--primary-color);
+  color: var(--accent-color);
 }
 
 /* ============= /COMMON STYLES ============= */
@@ -60,7 +63,12 @@ body {
 }
 
 .logo-color {
-  color: var(--primary-color);
+  color: var(--dark);
+}
+
+.logo-color:hover,
+.logo-color:focus {
+  color: var(--accent-color);
 }
 
 /* .menu {
@@ -74,6 +82,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--dark);
+}
+
+.contacts {
+  font-style: normal;
 }
 
 .contact-link {
@@ -98,6 +110,7 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  text-align: center;
   color: var(--white);
 }
 
@@ -108,9 +121,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.64px;
   color: var(--white);
-  border-radius: 4px;
   background: var(--primary-color);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .hero-btn:hover,
@@ -127,13 +138,13 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  color: var(--dark);
 }
 
 .benefit-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  color: var(--text-color);
 }
 
 /* ============= /BENEFIT================ */
@@ -153,16 +164,20 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  color: var(--dark);
 }
 
 .team-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  color: var(--text-color);
 }
 
 /* ============= /TEAM ============== */
+
+.team-item {
+  background-color: var(--white);
+}
 
 /* ============= FOOTER ============== */
 
@@ -195,8 +210,6 @@ body {
 }
 
 .filter-btn {
-  border-radius: 4px;
-  border: 1px solid #e7e9fc;
   color: var(--primary-color);
   background: var(--light-color);
 }
@@ -205,24 +218,21 @@ body {
 .filter-btn:focus {
   background: var(--accent-color);
   color: var(--white);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-.project-item {
-  border: 1px solid #e7e9fc;
-}
+/* .project-item {
+} */
 
 .project-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  color: var(--dark);
 }
 
 .project-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  color: var(--text-color);
 }
